@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+<title>Untitled</title>
+<link rel=stylesheet type="text/css" href="style1.css" title="syle1">
+</head>
+<body onLoad="StartClock24()">
+
+
+<div align="center">
+<SCRIPT language="javascript">
+document.write("You are using "+navigator.appName+"&nbsp;&nbsp;&nbsp;")
+today=new Date();
+function isnArray() {
+argnr=isnArray.arguments.length
+for (var i=0;i<argnr;i++) {
+this[i+1] = isnArray.arguments[i];}}
+var DonMonths=new isnArray
+("January","February","March","April","May","June","July",
+"August","September","October","November","December");
+mydate = new Date();
+myday = mydate.getDay();
+if(myday == 0)
+day = " Sunday ";
+else if(myday == 1)
+day = " Monday ";
+else if(myday == 2)
+day = " Tuesday ";
+else if(myday == 3)
+day = " Wednesday ";
+else if(myday == 4)
+day = " Thurday ";
+else if(myday == 5)
+day = " Friday ";
+else if(myday == 6)
+day = " Saturday ";
+document.write( day);
+day=today.getDate()
+if (day==1) end=("st");
+else if (day==2) end=("nd");
+else if (day==3) end=("rd");
+else if (day==21) end=("st");
+else if (day==22) end=("nd");
+else if (day==23) end=("rd");
+else if (day==31) end=("st");
+else end=("th");
+document.write("&nbsp;"+day+end+ "&nbsp;"+DonMonths[today.getMonth()+1]
++"&nbsp;"+today.getYear());
+</script>
+</b></div>
+</div>
+
+<div align="center">
+<SCRIPT>
+     function StartClock24() {
+     TTime = new Date(); 
+     CurHour = TTime.getHours();            
+     CurMin  = TTime.getMinutes();         
+     CurSec  = TTime.getSeconds();         
+     TheTime  = CurHour;                      
+     TheTime += ((CurMin < 10) ? ':0' : ':') + CurMin;
+     TheTime += ((CurSec < 10) ? ':0' : ':') + CurSec;
+     document.CForm.Clock24.value = TheTime;   
+     setTimeout('StartClock24()',1000);     
+   }
+   </SCRIPT>
+   <FORM NAME="CForm"><INPUT align="left" TYPE="text" NAME="Clock24" SIZE="6"></FORM>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<style type="text/css">
+<!--
+
+BODY  {
+	font-size : 11pt;
+	font-family : times new roman;
+	font-weight : normal;
+	font-style : normal;
+	color : #000000;
+	text-decoration : none;
+	text-align : left;
+	background-color : #FFFFFF;
+	SCROLLBAR-FACE-COLOR: #666666; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #333333; 
+	SCROLLBAR-SHADOW-COLOR: #333333; 
+	SCROLLBAR-3DLIGHT-COLOR: #333333; 
+	SCROLLBAR-ARROW-COLOR: #ffeb00; 
+	SCROLLBAR-TRACK-COLOR: #333333; 
+	SCROLLBAR-DARKSHADOW-COLOR: #333333
+}
+
+P  {
+	font-size : 11pt;
+	font-family : times new roman;
+	font-weight : normal;
+	font-style : normal;
+	font-color : #000000;
+	line-height : 150%;
+	
+}
+
+B  {
+	font-size : 11pt;
+	font-family : times new roman;
+	font-weight : bold;
+	font-style : normal;
+	font-color : #000000;
+}
+
+I   {
+	font-size : 11pt;
+	font-family : times new roman;
+	font-weight : normal;
+	font-style : italic;
+	font-color : #000000;
+	text-decoration:none;
+}
+
+B.my  {
+	font-size : 12pt;
+	font-family : times new roman;
+	font-weight : normal;
+	font-style : normal;
+	color : #FFFFFF;
+	text-decoration : none;
+}
+
+B.my1  {
+	font-size : 10pt;
+	font-family : sansserif;
+	font-weight : bold;
+	font-style : normal;
+	color : #000099;
+	line-height : 150%;
+	text-decoration : none;
+}
+
+B.my2  {
+	font-size : 9pt;
+	font-family : times new roman;
+	font-weight : normal;
+	font-style : normal;
+	color : #006600;
+	line-height : 110%;
+	text-decoration : none;
+}
+
+U.my1  {
+	font-size : 11pt;
+	font-family : times new roman;
+	font-weight : bold;
+	font-style : normal;
+	color : #000000;
+	text-decoration : overline;
+}			  
+
+H4  {
+	font-size :26pt;
+	font-family : times new roman;
+	font-weight : bold;
+	font-style : normal;
+	color : #006600;
+	text-align : center;
+	text-decoration : none;
+}
+
+LI    {
+	font-size :11pt;
+	font-family : times new roman;
+	font-weight : normal;
+	font-style : normal;
+	color : #000000;
+	text-decoration : none;
+}
+
+  LI.my1    {
+	font-size :11pt;
+	font-family : times new roman;
+	font-weight : bold;
+	font-style : normal;
+	color : #FF0000;
+	text-decoration : underline;
+}
+
+/*this is the hyperlink settings*/
+A  {
+	font-size : 9pt;
+	font-family : times new roman;
+	font-weight : bold;
+	font-style : normal;
+	color : #004400;
+	text-decoration : underline;
+}
+
+A.my  {
+	font-size : 12pt;
+	font-family : times new roman;
+	font-weight : bold;
+	font-style : normal;
+	color : #000000;
+	text-decoration : none;
+}
+
+A.my1  {
+	font-size : 12pt;
+	font-family : sansserif; 
+	font-weight : bold;
+	font-style : normal;
+	line-height : 150%;
+	color : #000099;			   
+	text-decoration : underline;
+}
+
+A.my2  {
+	font-size : 9pt;
+	font-family : times new roman; 
+	font-weight : normal;
+	font-style : normal;
+	color : #FFFFFF;			   
+	text-decoration : underline;
+}
+
+A.my3  {
+	font-size : 9pt;
+	font-family : sansserif; 
+	font-weight : bold;
+	font-style : normal;
+	line-height : 150%;
+	color : #000099;			   
+	text-decoration : underline;
+}
+
+A:Visited  {
+	font-size : 10pt;
+	font-family : times new roman;
+	font-weight : normal;
+	font-style : normal;
+	color : #FF0000;
+	text-decoration : line-through;
+}
+
+A:Active  {
+	font-size : 10pt;
+	font-family : times new roman;
+	font-weight : normal;
+	font-style : bold;
+	color : #FF00FF;
+	text-decoration : underline;
+}
+
+A:Hover  {
+	font-size : 9pt;
+	font-family : times new roman;
+	font-weight : bold;
+	font-style : normal;
+	color : #FF0033;
+	text-decoration : underline;
+}
+
+body{background-color:#FFFFFF}
+A{color:Navy; text-decoration:none}
+A:hover{color:red}
+A:visited:{color:#808080}
+TD{font-family:arial,helvetica; font-size:10pt}
+DIV.clTopMenu{position:absolute; width:101; height:150; clip:rect(0,101,14,0); visibility:hidden; z-index:31; layer-background-color:#EEEEEE; background-color:#EEEEEE}
+DIV.clTopMenuBottom{position:absolute; width:101; height:3; clip:rect(0,101,3,0); top:11; layer-background-color:#CECFCE; background-color:#CECFCE; z-index:2}
+DIV.clTopMenuText{position:absolute; width:91; left:5; top:15; font-family:arial,helvetica; font-size:11px; background-color:#EEEEEE; z-index:1} 
+
+-->
+</style>
