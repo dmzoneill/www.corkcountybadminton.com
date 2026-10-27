@@ -1,5 +1,9 @@
 # corkcountybadminton.com
 
+<p align="center">
+  <img src=".github/logo.png" alt="www.corkcountybadminton.com logo" width="128" />
+</p>
+
 The site of the Cork County Badminton Association.
 
 ## Contents
